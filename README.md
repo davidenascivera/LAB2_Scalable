@@ -20,10 +20,5 @@ The process for retrieving and preparing the data is illustrated below:
 
    ![Dataset Workflow](./images/description_2.jpg)
 
-## Features
-
-- **Italian and English Datasets**: Recipes are processed into question-answer pairs in both Italian and English.  
-- **Paraphrased Datasets**: Using a transformer model, additional variations of questions are generated for better model training.  
-- **GPT-Enhanced Suggestions**: Leveraging GPT to generate creative suggestions based on recipe data.
-
----
+The final dataset can be found at:  
+**[DATA/recipes_suggestion.jsonl](./DATA/recipes_suggestion.jsonl)**
