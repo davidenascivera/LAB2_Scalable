@@ -51,9 +51,9 @@ The results of the evaluation are summarized in the table below:
 | `/content/test_set_new.jsonl` | `unsloth/Llama-3.2-1B-Instruct` | 3          | 0.4380      | 0.1348      | 0.2909      | 0.4311          | 0.6950                  | 0.6863                | 0.6899            | davnas/Italian_Cousine_2     |
 | `/content/test_set.jsonl`     | `unsloth/Llama-3.2-1B-Instruct` | 5          | 0.4607      | 0.1944      | 0.3517      | 0.4428          | 0.7025                  | 0.7790                | 0.7367            | davnas/Italian_Cousine_2.0   |
 | `/content/test_set_new.jsonl` | `unsloth/Llama-3.2-1B-Instruct` | 5          | 0.4305      | 0.1305      | 0.2802      | 0.4229          | 0.6942                  | 0.6786                | 0.6850            | davnas/Italian_Cousine_2.0   |
-| `/content/test_set_new.jsonl` | `unsloth/Llama-3.2-1B-Instruct` | 5          | 0.4535      | 0.1398      | 0.2972      | 0.4440          | 0.6979                  | 0.6919                | 0.6944            | davnas/Italian_Cousine_2.1   |
+| `/content/test_set_new.jsonl` | `unsloth/Llama-3.2-1B-Instruct` | 7          | 0.4535      | 0.1398      | 0.2972      | 0.4440          | 0.6979                  | 0.6919                | 0.6944            | davnas/Italian_Cousine_2.1   |
 | `/content/test_set.jsonl`     | `unsloth/Llama-3.2-1B-Instruct` | 7          | 0.5731      | 0.3902      | 0.4999      | 0.5583          | 0.7551                  | 0.8335                | 0.7908            | davnas/Italian_Cousine_2.1   |
-| `/content/test_set_new.jsonl` | `unsloth/Llama-3.2-1B-Instruct` | 7          | 0.2828      | 0.0658      | 0.1837      | 0.2664          | 0.7565                  | 0.6436                | 0.6945            | davnas/Italian_Cousine_3     |
+
 
 
 
