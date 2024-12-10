@@ -122,4 +122,4 @@ Enhance model performance by improving the quality and diversity of the training
 
 To enrich the training data, we opted to focus on **extensive paraphrasing of the inputs** while limiting the training to only **2 epochs**. This approach allowed us to explore the impact of diverse input variations on the model's performance without significantly increasing computational costs.
 
-<img src="./images/comparison_data.png" alt="BERT Score Analysis" width="600" height="350">
+<img src="./images/comparison_data.png" alt="BERT Score Analysis" width="430" height="258">
