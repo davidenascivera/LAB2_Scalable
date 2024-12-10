@@ -121,5 +121,4 @@ Enhance model performance by improving the quality and diversity of the training
 ### Data Augmentation: Enhancing the Dataset
 
 To enrich the training data, we opted to focus on **extensive paraphrasing of the inputs** while limiting the training to only **2 epochs**. This approach allowed us to explore the impact of diverse input variations on the model's performance without significantly increasing computational costs.
-
-![Data Extraction Workflow]("./images/comparison_data.pn")
+![Data Extraction Workflow](./images/comparison_data.png)
