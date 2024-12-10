@@ -100,6 +100,21 @@ else:
     trainer_stats = trainer.train()
 ```
 
+### Improving Model Performance
 
+To achieve optimal performance for the model, consider the following approaches:
 
+#### **(a) Model-Centric Approach**
+Focus on refining the model's internal configuration and training strategies. Examples include:
+- **Hyperparameter Tuning:** Experiment with different learning rates, batch sizes, and weight decay to identify the optimal settings for your model.
+- **Gradient Accumulation:** Adjust the `gradient_accumulation_steps` parameter to simulate larger batch sizes, especially helpful when dealing with memory constraints.
+- **Optimization Techniques:** Leverage advanced optimizers like AdamW or RMSprop and explore regularization techniques to prevent overfitting.
+- **Fine-Tuning Epochs:** Test different numbers of training epochs to balance between underfitting and overfitting while monitoring validation performance.
+
+#### **(b) Data-Centric Approach**
+Enhance model performance by improving the quality and diversity of the training data. Consider the following strategies:
+- **Data Augmentation:** Use paraphrasing models or other large language models (LLMs) to generate augmented versions of the recipes, questions, or answers.
+- **Additional Data Sources:** Integrate new data from relevant recipe collections or datasets with a similar structure to increase variety and context.
+- **Data Preprocessing:** Ensure high data quality by addressing inconsistencies, removing noise, and standardizing formats.
+- **Synthetic Data Creation:** Generate synthetic data for rare cases or edge scenarios to improve the model's ability to generalize.
 
