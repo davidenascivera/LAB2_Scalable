@@ -118,3 +118,8 @@ Enhance model performance by improving the quality and diversity of the training
 - **Data Preprocessing:** Ensure high data quality by addressing inconsistencies, removing noise, and standardizing formats.
 - **Synthetic Data Creation:** Generate synthetic data for rare cases or edge scenarios to improve the model's ability to generalize.
 
+### Data Augmentation: Enhancing the Dataset
+
+To enrich the training data, we opted to focus on **extensive paraphrasing of the inputs** while limiting the training to only **2 epochs**. This approach allowed us to explore the impact of diverse input variations on the model's performance without significantly increasing computational costs.
+
+![Data Extraction Workflow](./images/comparison_data.png)
