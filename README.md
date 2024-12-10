@@ -22,8 +22,20 @@ The process for retrieving and preparing the data is illustrated below:
    The final dataset can be found at:  
    **[DATA/recipes_suggestion.jsonl](./DATA/recipes_suggestion.jsonl)**
 
-4. **Training different models**
-   Multiple model   
+3. **Data Augmentation**  
+   To enrich the dataset, paraphrased and translated recipes were generated using fine-tuned language models and large language models (LLMs). This process created diverse input variations, enhancing the dataset for fine-tuning. We focused on generating paraphrased questions and responses in Italian and English to cover more linguistic nuances.
+
+4. **Model Training and Fine-Tuning**  
+   Multiple models were fine-tuned on the prepared dataset, each with different hyperparameters and configurations. The training process explored variations in learning rate, batch size, and gradient accumulation steps.  
+   - **Models Evaluated**:  
+     - `unsloth/Llama-3.2-1B-Instruct`  
+     - `unsloth/Llama-3.2-1B-Instruct-bnb-4bit`  
+   - **Training Configurations**:
+     - Epochs ranged from 3 to 7 to balance overfitting and underfitting.
+     - Paraphrased data were integrated to test the model’s ability to generalize.
+
+5. **Inference and Evaluation**  
+   After fine-tuning, the models were tested on a combination of learned and unseen recipes to evaluate their performance. Metrics such as **ROUGE Scores** and **BERTScore** were used for a comprehensive analysis of lexical and semantic similarity.
 
 
 ## Inference and Testing
