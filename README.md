@@ -73,14 +73,13 @@ The results of the evaluation are summarized in the table below:
 
 | **BERT Score Analysis for unsloth Llama-3.2-1B-Instruct** | **ROUGE Score Analysis for unsloth Llama-3.2-1B-Instruct** |
 |:---------------------------------------------------------:|:---------------------------------------------------------:|
-| <img src="./images/unslothLlama-3.2-1B-Instruct_bert.png" alt="BERT Score Analysis" width="490" height="290"> | <img src="./images/unslothLlama-3.2-1B-Instruct_rouge.png" alt="ROUGE Score Analysis" width="490" height="290"> |
+| <img src="./images/unslothLlama-3.2-1B-Instruct_bert.png" alt="BERT Score Analysis" width="490" height="214"> | <img src="./images/unslothLlama-3.2-1B-Instruct_rouge.png" alt="ROUGE Score Analysis" width="490" height="214"> |
 
 ### Base model `Llama-3.2-1B-Instruct-bnb-4bit`
 
 | **BERT Score Analysis for Llama-3.2-1B-Instruct-bnb-4bit** | **ROUGE Score Analysis for Llama-3.2-1B-Instruct-bnb-4bit** |
 |:----------------------------------------------------------:|:----------------------------------------------------------:|
-| <img src="./images/Llama-3.2-1B-Instruct-bnb-4bit_Bert.png" alt="BERT Score Analysis" width="490" height="290"> | <img src="./images/Llama-3.2-1B-Instruct-bnb-4bit_rough.png" alt="ROUGE Score Analysis" width="490" height="290"> |
-
+| <img src="./images/Llama-3.2-1B-Instruct-bnb-4bit_Bert.png" alt="BERT Score Analysis" width="490" height="214"> | <img src="./images/Llama-3.2-1B-Instruct-bnb-4bit_rough.png" alt="ROUGE Score Analysis" width="490" height="214"> |
 
 ## Performing Checkpointing in Training
 
